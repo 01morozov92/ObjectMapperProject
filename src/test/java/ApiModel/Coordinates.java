@@ -4,12 +4,14 @@ package ApiModel;
 
 
 import com.google.gson.annotations.Expose;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.annotation.processing.Generated;
 
-
-@Generated("net.hexar.json2pojo")
-@SuppressWarnings("unused")
+@Data
 public class Coordinates {
 
     @Expose
